@@ -1,0 +1,12 @@
+.bgBlue {
+   background-color: darkblue;
+   border: 1px solid #000;
+   height: 50px;
+}
+
+
+.bgRed {
+   background-color: darkred;
+   border: 1px solid #000;
+   height: 50px;
+}

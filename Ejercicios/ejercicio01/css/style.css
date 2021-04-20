@@ -1,0 +1,104 @@
+body {
+   background-color: #232323;
+}
+
+/* CONTAINER GENERAL  */
+   /* container styles  */
+   .container,
+   .container .row,
+   .container-fluid,
+   .container-fluid .row {
+      min-height: 135px;
+   }
+
+   #secCont,
+   #secCont .row {
+      min-height: auto;
+   }
+
+ /* BACKGROUND COLORS  */
+   /* first, second & bgGreen containers  background color */
+   #firstCont .row :nth-child(even), 
+   #secCont .row :nth-child(even),
+   .bgGreen {
+      background-color: #27ba27;
+   }
+   /* first, second & bgRed containers  background color */
+   #firstCont .row:nth-child(odd), 
+   #secCont .row:nth-child(odd),
+   .bgRed {
+      background-color: #da2828;
+   }
+
+   .bgBlue {
+      background-color: #2360fc;
+   }
+
+   .bgGrey {
+      background-color: lightgrey;
+   }
+
+   .bgDeg1 {
+      background-image: linear-gradient(green, red, white);
+   }
+
+   .bgDeg2{
+      background-image: linear-gradient(to bottom right, red, blue);
+   }
+
+   .bgDeg3{
+      background-image: linear-gradient(to top right, yellow, green);
+   }
+
+   .bgDarkRed {
+      background-color: darkred;
+   }
+
+   .bgDarkBlue {
+      background-color: darkblue;
+   }
+
+   .bgDarkGreen {
+      background-color: darkgreen;
+   }
+
+   .bgPurple {
+      background-color: purple;
+   }
+
+/* BORDER containers */
+   .border1,
+   .border2,
+   .border3,
+   .border4,
+   .border5,
+   .border6 {
+      border: 5px solid #00f;
+   }
+
+   .border2 {
+      border-color: #ff0;
+      border-style: double;
+   }
+
+   .border3 {
+      border-color: #f00;
+      border-style: dotted;
+   }
+
+   .border4 {
+      border-color: #fff;
+      border-style: groove;
+   }
+
+ /* CARD */
+   .card{
+      height: 90%;
+      text-align: center;
+      width: 50%;
+   }
+
+   .card img {
+      margin: 0 auto;
+      width: 35%;
+   }
