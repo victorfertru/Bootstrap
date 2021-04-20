@@ -1,0 +1,252 @@
+:root {
+   --bgColor: #222222;
+   --bgGrey:#333333;
+   --colorDestacado: #fe8b00;
+   --colorPrimary: #fff;
+   --colorSecondary: #787878;
+}
+
+/* css general  */
+body {
+   background-color: var(--bgColor);
+   color: var(--colorPrimary);
+}
+
+a {
+   color: var(--colorPrimary);
+}
+
+a:hover {
+   color: var(--colorDestacado);
+   text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   font-family: "Trebuchet MS", Helvetica, sans-serif;
+   text-transform: uppercase;
+   margin: 1rem 0;
+}
+
+h2, h3 {
+   color: var(--colorDestacado);
+}
+
+h2 {
+   font-size: 3rem;
+}
+
+h3 {
+   font-size: 2.25rem;
+}
+
+h4, h5 {
+   font-size: 1.25rem;
+   margin: 1rem 0;
+}
+
+h5 {
+   color: var(--colorDestacado);
+}
+
+h6 {
+   color: var(--colorSecondary);
+   font-size: 0.9rem;  
+   font-weight: 700;
+}
+
+p {
+   font-size: 1rem;
+   font-weight: 500;
+   color: var(--colorSecondary);
+}
+
+ /* background colors  */
+   .bgGrey {
+      background-color: var(--bgGrey);
+   }
+
+   .bgOrange {
+      background-color: var(--colorDestacado);
+   }
+
+   .bgTransparent {
+      background-color: transparent;
+   }
+
+/* listas  */
+   ul {
+      list-style: none; /* Remove list bullets */
+      padding: 0;
+      margin: 0;
+   }
+   
+   li {
+      color: var(--colorSecondary);
+      font-size: 1.15rem;
+      font-weight: 500;
+      padding-left: 1rem;
+   }
+   
+   li::before {
+      content: "✓"; /* Insert content that looks like bullets */
+      padding-right: 0.5rem;
+      color: var(--colorDestacado); /* Or a color you prefer */
+   }
+
+/* header  - navbar */
+   header nav {
+      align-items: center;
+      background-color: var(--bgColor);
+      display: flex;
+      height: 6rem;
+      justify-content: space-between;
+      box-shadow: 0 1px 5px 0 #00000041;
+      padding: 0 7%;
+      position: fixed;
+      width: 100%;
+      z-index: 1;
+   }
+   header nav h2 {
+      font-family: Arial, Helvetica, sans-serif;
+      cursor: pointer;
+      font-size: 1.25rem;
+      font-weight: 800;
+      margin-bottom: 0;
+   }
+
+/* header - menu links  */
+   header nav ul {
+      align-items: center;
+      display: flex;
+      list-style: none;
+      margin-bottom: 0;
+   }
+
+   header nav ul li {
+      padding: 0 1rem;
+      font-weight: 500;
+   }
+      /* eliminar tick por defecto  */
+   header nav ul li::before {
+      content: '';
+   }
+
+/* container  */
+   .container-fluid {
+      padding: 3rem 0 0;
+   }
+
+   .container-fluid .row {
+      margin-left: 0;
+      margin-right: 0;
+      padding: 2rem 18%;
+   }
+
+/* content sections  */
+   .content {
+      align-items: center;
+      display: flex; 
+   }
+
+   .content>div {
+      max-width: 80%;
+      margin: 0 auto;
+   }
+
+/* hero 1 section  */
+   .hero1 {
+      background-image: url("../images/hero_2.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+   }
+
+   .hero1 h1 {
+      font-size: 6rem;
+   }
+
+   .hero1 p {
+      color: var(--colorPrimary);
+   }
+
+/* services section  */
+   .services .icon {
+      border-radius: 50%;
+      height: 4rem;
+      margin: 1.5rem 0;
+      width: 4rem;
+   }
+
+   .services .icon img {
+      max-width: 3.5rem;
+      margin: 0.75rem;
+   }
+
+/* performance section  */
+   .performance img {
+      width: 100%;
+   }
+
+/* team section  */
+   .team .teamImg img {
+      border-radius: 50%;
+      width: 120px;
+   }
+
+   .team .rrss img {
+      width: 25px;
+      cursor: pointer;
+   }
+
+/* footer  */
+   footer {
+      background-color: var(--bgGrey);
+   }
+
+   footer .copy {
+      border-top: 1px solid var(--colorSecondary);
+      width: 90%;
+      margin: 0 auto;
+   }
+
+   /* footer font sizes / colors  */
+      footer h4 {
+
+         font-size: 1.1rem ;
+      }
+      footer p {
+         color: var(--colorPrimary);
+         font-size: 0.9rem;
+         font-weight: 500;
+      }
+
+      footer a {
+         color: var(--colorSecondary);
+      }
+   
+   /* footer list  */
+      footer ul li {
+         padding: 0;
+         margin: 0.5rem 0;
+         font-size: 1rem;
+      }
+
+      footer ul li::before {
+         content: "";
+      }
+
+   /* footer form   */
+      footer form {
+          margin-bottom: ;
+      }
+      footer input.form {
+         padding: 1.5rem 1rem ;
+      }
+      
+   /* footer rrss  */
+   footer .footerRRSS img {
+      cursor: pointer;
+      margin-right: 2rem;
+      width: 18px;
+   }
