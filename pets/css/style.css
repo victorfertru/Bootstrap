@@ -6,6 +6,7 @@
   background-color: #53c9bb;
   border-color: #53c9bb;
   border-radius: 20px;
+  padding: 0.5rem 1rem;
 }
 
 nav {
@@ -109,4 +110,66 @@ nav .linksNav li a {
   align-items: center;
   display: flex;
   justify-content: center;
+}
+
+.happyDog {
+  background-attachment: fixed;
+  background-image: url("../images/review_bg.png");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 35vh;
+}
+
+.yourHelp {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.yourHelp h2 {
+  font-weight: 400;
+  word-spacing: 0.5rem;
+}
+.yourHelp p {
+  font-size: 1.1rem;
+}
+
+footer {
+  background-image: url("../images/footer_bg.png");
+  background-position: top;
+  background-size: cover;
+  background-repeat: repeat;
+  color: #fff;
+  height: 75vh;
+}
+footer .col-12 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 6rem 0;
+}
+footer .col-12 .subscribe {
+  width: 40%;
+}
+footer h2, footer h3 {
+  font-weight: 300;
+  word-spacing: 0.5rem;
+}
+footer p {
+  font-size: 1.1rem;
+  margin-bottom: 3rem;
+}
+footer .col-3 {
+  padding-left: 7rem;
+}
+footer ul {
+  font-size: 1.1rem;
+  list-style: none;
+  padding: 0;
+}
+footer ul li {
+  padding: 0.25rem 0;
 }
