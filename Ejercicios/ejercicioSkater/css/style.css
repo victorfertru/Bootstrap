@@ -191,7 +191,7 @@ p {
 /* team section  */
    .team .teamImg img {
       border-radius: 50%;
-      width: 120px;
+      width: 50%;
    }
 
    .team .rrss img {
@@ -204,9 +204,14 @@ p {
       background-color: var(--bgGrey);
    }
 
-   footer .copy {
+   footer hr {
       border-top: 1px solid var(--colorSecondary);
       width: 90%;
+      margin: 0 auto;
+   }
+
+   footer .copy {
+      width: 100%;
       margin: 0 auto;
    }
 
@@ -237,9 +242,6 @@ p {
       }
 
    /* footer form   */
-      footer form {
-          margin-bottom: ;
-      }
       footer input.form {
          padding: 1.5rem 1rem ;
       }
