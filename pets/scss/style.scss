@@ -1,0 +1,119 @@
+// variables
+@import './variables';
+// mixins
+@import './mixins';
+
+.pTopButton {
+   padding: 3rem 0;
+}
+
+.btnPets {
+   background-color: #53c9bb;
+   border-color: #53c9bb;
+   border-radius: 20px;
+}
+
+nav {
+   background-color: $color01;
+   .linksNav{
+      @include flexCenter;
+      list-style: none;
+      padding: 1rem 0;
+
+      li {
+         padding: 0 35px;
+         //  enlaces pertenecientes al navbar 
+         a {
+            color: #fff;
+         }
+      }
+   }
+}
+
+.bg-banner{
+   background-attachment: fixed;
+   background-image: url('../images/banner_bg.png');
+   background-position: top;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 100vh;
+
+   .textBanner {
+      flex-direction: column;
+      @include flexCenter; 
+      padding-left: 10%;
+      // align-items por debajo de include para que modifique el valor 
+      align-items: unset;
+
+      p{
+         color: $color02;
+      }
+      h1{
+         color: $color01;
+         font-weight: 300;
+         font-size: 5rem;
+         word-spacing: 3rem;
+      }
+   } 
+}
+
+.imageDog{
+   @include flexCenter;
+   height: 80vh;
+   
+   img {
+      width: 50%;
+   }
+}
+
+.fCenter {
+   @include flexCenter;
+
+   .textCare {
+      width: 50%;
+   }
+}
+
+.bgServices{
+   background-image: url('../images/services_bg.png');
+   
+   .col-12 {
+      text-align: center;
+      padding: 7rem 0;
+   }
+
+   .card {
+      align-items: center;
+      background-color: transparent;
+      border: 0;
+
+      img{
+         width: 50%;
+      }
+
+      p{
+         font-size: 0.85rem;
+         color: #232323;
+      }
+   }
+}
+
+.colLeftAdopt{
+   padding-left: 25%;
+   @include flexCenter;
+   flex-direction: column;
+
+   h2 {
+      font-weight: 400;
+      word-spacing: 1rem;
+      margin-bottom: 3rem;
+   }
+   p{
+      font-size: 1.1rem;
+   }
+
+   .containerAdopt{
+      @include flexCenter;
+   }
+
+}

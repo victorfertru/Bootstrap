@@ -1,0 +1,112 @@
+.pTopButton {
+  padding: 3rem 0;
+}
+
+.btnPets {
+  background-color: #53c9bb;
+  border-color: #53c9bb;
+  border-radius: 20px;
+}
+
+nav {
+  background-color: #082b49;
+}
+nav .linksNav {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 1rem 0;
+}
+nav .linksNav li {
+  padding: 0 35px;
+}
+nav .linksNav li a {
+  color: #fff;
+}
+
+.bg-banner {
+  background-attachment: fixed;
+  background-image: url("../images/banner_bg.png");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.bg-banner .textBanner {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-left: 10%;
+  align-items: unset;
+}
+.bg-banner .textBanner p {
+  color: #ff9aaa;
+}
+.bg-banner .textBanner h1 {
+  color: #082b49;
+  font-weight: 300;
+  font-size: 5rem;
+  word-spacing: 3rem;
+}
+
+.imageDog {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+}
+.imageDog img {
+  width: 50%;
+}
+
+.fCenter {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.fCenter .textCare {
+  width: 50%;
+}
+
+.bgServices {
+  background-image: url("../images/services_bg.png");
+}
+.bgServices .col-12 {
+  text-align: center;
+  padding: 7rem 0;
+}
+.bgServices .card {
+  align-items: center;
+  background-color: transparent;
+  border: 0;
+}
+.bgServices .card img {
+  width: 50%;
+}
+.bgServices .card p {
+  font-size: 0.85rem;
+  color: #232323;
+}
+
+.colLeftAdopt {
+  padding-left: 25%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.colLeftAdopt h2 {
+  font-weight: 400;
+  word-spacing: 1rem;
+  margin-bottom: 3rem;
+}
+.colLeftAdopt p {
+  font-size: 1.1rem;
+}
+.colLeftAdopt .containerAdopt {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
