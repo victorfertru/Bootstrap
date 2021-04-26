@@ -1,0 +1,71 @@
+@import './variables';
+
+
+body {
+   color: #fff;
+}
+
+hr {
+   border: 1px solid #fff;
+}
+
+
+.pad7 {
+   padding: 7% 5%;
+}
+
+.bgNav {
+   background-color: $color;
+   position: fixed;
+   z-index: 1;
+   width: 100%;
+   a, button {
+      color: #fff !important;
+   }
+}
+
+.bgDarkBlue{
+   background-color: $color;
+   padding: 10% 7%;
+}
+
+.bgAliquam{
+   background-color: skyblue ;
+}
+
+.bgTempus{
+   background-color: mediumpurple;
+}
+
+.bgMagna{
+   background-color: lightcoral;
+}
+
+.bgIpsum{
+   background-color:lightsalmon;
+}
+
+.bgConsequat{
+   background-color: royalblue;
+}
+
+.bgEtiam{
+   background-color: mediumaquamarine;
+}
+
+.bgFooter {
+   background-color: $color;
+}
+
+.form-control {
+   width: 100%;
+   color: #fff;
+   background-color: #b6b6b629;
+   border: 1px solid transparent;
+   border-radius: 5px;
+   padding: 0.25rem;
+}
+
+.footer img{
+   width: 50px;
+}
