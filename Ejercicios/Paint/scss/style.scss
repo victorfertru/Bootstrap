@@ -1,0 +1,120 @@
+@import './variables';
+@import './mixins';
+
+header {
+   text-align: center;
+   height: 100vh;
+
+   .navBarHeader{
+      height: 30vh;
+      @include flex(center,center);
+      flex-direction: column;
+
+      h2 {
+         font-weight: 900;
+         font-size: 2.5rem;
+      }
+
+      ul{
+         justify-content: center;
+      }
+
+      a {
+         color: $colorGrey;
+        
+      }
+      .btn-danger{
+         color: $colorWhite;
+      }
+   }
+
+   .howdy {
+      height: 70vh;
+      background-image: url('../images/pic01.jpg');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      @include flex(center,center);
+
+      h1 {
+         font-size: 1.8rem;
+      }
+      .card {
+         padding: 2.25rem 4rem;
+
+         .card-text {
+            color: $colorRed;
+         }
+      }
+   }
+}
+
+.lorem {
+   @include flex(center,center);
+    min-height: 50vh;
+
+   div {
+      @include flex(center,center);
+      flex-direction: column;
+      padding: 0.5rem 1.5rem;
+   }
+
+   p {
+      color: $colorGrey;
+      font-size: 0.9rem;
+   }
+
+   .stars {
+      box-shadow: 0 0 10px 3px #000000;
+   }
+}
+
+.portfolio{
+   background-color: $bgPortfolio;
+   border-top: 1px solid #c5c5c5;
+   padding: 3rem 0;
+
+   h3 {
+      font-weight: 900;
+      padding: 2.5rem 0;
+   }
+
+   .works {
+      @include flex(center,center);
+      margin: 1rem 0;
+
+      .card {
+         max-width: 85%;
+
+         h5, p, a{
+            margin: 1.5rem 0;
+         }
+      }
+   }
+
+   .blog {
+      @include flex(center,center);
+      margin: 1rem 0;
+
+      .card {
+         max-width: 85%;
+
+         h5, p, a{
+            margin: 3rem 0 5rem;
+         }
+      }
+   }
+}
+
+footer {
+   background-color: #000;
+   color: $colorWhite;
+   margin: 0 1px !important;
+   padding: 3rem 0;
+
+   .about, .links {
+      @include flex(space-around,center);
+      flex-direction: column;
+      height: 400px;
+   }
+}

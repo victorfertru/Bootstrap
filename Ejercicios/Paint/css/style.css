@@ -1,0 +1,112 @@
+header {
+  text-align: center;
+  height: 100vh;
+}
+header .navBarHeader {
+  height: 30vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+header .navBarHeader h2 {
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+header .navBarHeader ul {
+  justify-content: center;
+}
+header .navBarHeader a {
+  color: #6a6a6a;
+}
+header .navBarHeader .btn-danger {
+  color: #fff;
+}
+header .howdy {
+  height: 70vh;
+  background-image: url("../images/pic01.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+header .howdy h1 {
+  font-size: 1.8rem;
+}
+header .howdy .card {
+  padding: 2.25rem 4rem;
+}
+header .howdy .card .card-text {
+  color: #dc3545;
+}
+
+.lorem {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 50vh;
+}
+.lorem div {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0.5rem 1.5rem;
+}
+.lorem p {
+  color: #6a6a6a;
+  font-size: 0.9rem;
+}
+.lorem .stars {
+  box-shadow: 0 0 10px 3px #000000;
+}
+
+.portfolio {
+  background-color: #f2f2f2;
+  border-top: 1px solid #c5c5c5;
+  padding: 3rem 0;
+}
+.portfolio h3 {
+  font-weight: 900;
+  padding: 2.5rem 0;
+}
+.portfolio .works {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+.portfolio .works .card {
+  max-width: 85%;
+}
+.portfolio .works .card h5, .portfolio .works .card p, .portfolio .works .card a {
+  margin: 1.5rem 0;
+}
+.portfolio .blog {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+.portfolio .blog .card {
+  max-width: 85%;
+}
+.portfolio .blog .card h5, .portfolio .blog .card p, .portfolio .blog .card a {
+  margin: 3rem 0 5rem;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  margin: 0 1px !important;
+  padding: 3rem 0;
+}
+footer .about, footer .links {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 400px;
+}
