@@ -1,0 +1,11 @@
+@mixin backgroundBg{
+   background-size: cover ;
+   background-position: center;
+}
+
+@mixin flexColumn {
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
