@@ -1,9 +1,13 @@
 # ejercicio 08 Design
 # images
 Ejercicios/ejercicioDesign/images
+Ejercicios/Japo/images
    
 # sass
 Ejercicios/ejercicioDesign/scss
+Ejercicios/Japo/scss
+
 
 # prepros config
 Ejercicios/ejercicioDesign/prepros.config
+Ejercicios/Japo/prepros.config

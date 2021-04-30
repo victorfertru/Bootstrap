@@ -1,0 +1,331 @@
+/* custom scrollbar  */
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #9ccbb9;
+  border-radius: 6px;
+  border: 1px solid #6a8f81;
+}
+
+::selection {
+  color: #fff;
+  background: #9ccbb9;
+}
+
+body {
+  background-color: #6a8f81;
+  background-image: url("https://i.pinimg.com/originals/b8/4b/40/b84b4078dfce0bfba65fc10615c3131d.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  cursor: url("https://www.zingerbug.com/cursors/cursors/pink_rose.gif"), pointer;
+}
+
+a, button {
+  cursor: url("https://www.zingerbug.com/cursors/cursors/peach_rose.gif"), pointer !important;
+}
+
+p {
+  line-height: 2;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.25rem;
+  text-transform: uppercase;
+}
+
+button {
+  background-color: transparent;
+  border: 2px solid #1a1a1ae2;
+  color: #1a1a1ae2;
+  font-size: 0.75rem;
+  font-weight: 900;
+  margin-top: 1.5rem;
+  padding: 0.5rem 1.25rem;
+  text-transform: uppercase;
+  transition: all 0.7s ease;
+}
+
+button:hover {
+  border: 2px solid #9ccbb9;
+  color: #9ccbb9;
+}
+
+header .col-12 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 60vh;
+  text-align: center;
+}
+header .col-12 h1 {
+  color: #fff;
+  font-size: 5rem;
+  margin-bottom: 3rem;
+  width: 75%;
+}
+header .col-12 p {
+  color: #fff;
+  font-style: italic;
+  font-size: 1.25rem;
+}
+
+main {
+  background-color: #fff;
+  position: relative;
+}
+main nav {
+  background-color: #9ccbb9;
+  font-weight: 800;
+  font-size: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  position: absolute;
+  text-transform: uppercase;
+  top: 3px;
+  width: 100%;
+}
+main nav .navLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+main nav .navLinks li {
+  padding: 0.25rem 1rem;
+  text-align: center;
+}
+main nav .navLinks li a {
+  border: 2px solid transparent;
+  border-radius: 5px;
+  color: #fff !important;
+  transition: border 1s ease;
+}
+main nav .navLinks li a img {
+  width: 18px;
+}
+main nav .navLinks li a:hover {
+  border: 2px solid #fff;
+  font-size: 0.7rem;
+}
+main nav .rrss {
+  margin-right: 1rem;
+}
+main nav .rrss li {
+  padding: 0;
+  margin: 0 0.1rem;
+}
+main .bigPhotoSect {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4rem;
+  text-align: center;
+}
+main .bigPhotoSect h2 {
+  font-size: 4rem;
+  margin-bottom: 3rem;
+  width: 50%;
+}
+main .bigPhotoSect p {
+  font-style: italic;
+  margin-bottom: 2rem;
+  width: 50%;
+}
+main .bigPhotoSect img {
+  width: 100%;
+}
+main .bigPhotoSect button {
+  margin-top: 3.5rem;
+  padding: 0.75rem 1.5rem;
+  text-transform: uppercase;
+}
+main .photoGallery1, main .photoGallery2 {
+  border-top: 2px solid #e2e2e2;
+}
+main .photoGallery2 {
+  border-left: 2px solid #e2e2e2;
+}
+main .cardInfo {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4rem;
+}
+main .cardInfo img {
+  margin: 2rem 0;
+  width: 100%;
+}
+main .cardInfo h3 {
+  width: 65%;
+  text-align: center;
+}
+main .cardInfo p {
+  text-align: justify;
+}
+main .formSect1, main .formSect2 {
+  background-color: #f5f5f5;
+  color: #484747ce;
+  padding: 4rem;
+  overflow: hidden;
+}
+main .formSect1 span, main .formSect2 span {
+  font-size: 0.75rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+main .formSect1 button, main .formSect2 button {
+  border-color: #484747ce;
+  color: #484747ce;
+}
+main .formSect1 button:hover, main .formSect2 button:hover {
+  border: 2px solid #9ccbb9;
+  color: #9ccbb9;
+}
+main .formSect1 input, main .formSect1 textarea, main .formSect2 input, main .formSect2 textarea {
+  background-color: transparent;
+  border: 2px solid #e2e2e2;
+  margin: 0.5rem 0 1rem;
+  padding: 0.5rem;
+  width: 100%;
+  outline: none;
+  transition: border 0.7s ease;
+}
+main .formSect1 input:focus, main .formSect1 textarea:focus, main .formSect2 input:focus, main .formSect2 textarea:focus {
+  border: 2px solid #9ccbb9;
+}
+main .formSect1 textarea, main .formSect2 textarea {
+  height: 100px;
+}
+main .formSect2 {
+  font-size: 0.75rem;
+}
+main .formSect2 .flexFooter {
+  display: flex;
+  border-left: 2px solid #e2e2e2;
+  border-bottom: 2px solid #e2e2e2;
+  height: 25%;
+  padding: 3rem 4rem;
+}
+main .formSect2 .flexFooter .destacado {
+  border-bottom: 1px dotted #484747ce;
+  font-weight: 400;
+}
+main .formSect2 .lastflexFooter {
+  display: flex;
+  border-left: 2px solid #e2e2e2;
+  padding: 3rem 4rem;
+}
+main .formSect2 .lastflexFooter ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin-top: -9px;
+}
+main .formSect2 .lastflexFooter ul li {
+  border: 1px solid #e2e2e2;
+  border-radius: 50%;
+  margin-right: 0.75rem;
+}
+main .formSect2 .lastflexFooter ul li a {
+  padding: 0.4rem 0.45rem;
+}
+main .formSect2 .lastflexFooter ul img {
+  width: 18px;
+}
+main .formSect2 .titleFooter {
+  width: 100px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+footer {
+  text-align: center;
+  padding: 5% 0;
+}
+footer h4 {
+  font-size: 0.75rem;
+  letter-spacing: unset;
+}
+
+@media (max-width: 1000px) {
+  .cardInfo h3 {
+    width: 100% !important;
+    text-align: center;
+  }
+}
+@media (max-width: 775px) {
+  header .col-12 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60vh;
+    text-align: center;
+  }
+  header .col-12 h1 {
+    color: #fff;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    width: 100%;
+  }
+  header .col-12 p {
+    color: #fff;
+    font-style: italic;
+    font-size: 1.05rem;
+  }
+
+  nav {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .bigPhotoSect {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem !important;
+    text-align: center;
+  }
+  .bigPhotoSect h2 {
+    font-size: 2.5rem !important;
+    margin-bottom: 2rem !important;
+    width: 100% !important;
+  }
+  .bigPhotoSect p {
+    font-style: italic;
+    margin-bottom: 2rem;
+    width: 100%;
+  }
+  .bigPhotoSect img {
+    width: 100%;
+  }
+
+  .cardInfo, .formSect1 {
+    padding: 2rem !important;
+  }
+
+  .formSect2 {
+    padding: 2rem 0 !important;
+  }
+
+  .flexFooter, .lastflexFooter {
+    border-left: 0 !important;
+    padding: 3rem 2rem;
+  }
+}
